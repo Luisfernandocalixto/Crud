@@ -24,7 +24,7 @@ if ($_POST) {
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Agregar contacto</h5>
+        <h5 class="modal-title text-center" id="exampleModalLabel"><i class="fa-solid fa-address-book"></i> Agregar contacto </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -34,11 +34,11 @@ if ($_POST) {
       <div class="modal-body">
       
       <label for="">Nombre</label>
-      <input type="text" class="form-control" name="nombre" value="" placeholder="Ingresa nombre">
+      <input type="text" class="form-control" name="nombre" value="" placeholder="Ingresa nombre" required>
       <label for="">Teléfono</label>
-      <input type="text" class="form-control" name="telefono" value="" placeholder="Ingresa teléfono">
+      <input type="tel" class="form-control" name="telefono" value="" placeholder="Ingresa teléfono" required>
       <label for="">Fecha</label>
-      <input type="date" class="form-control" name="fecha" value="">
+      <input type="date" class="form-control" name="fecha" value="" required>
 
       </div>
       <div class="modal-footer">

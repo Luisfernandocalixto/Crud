@@ -1,4 +1,4 @@
-<?php  $url_base="http://localhost/crud/";   ?>
+<?php $url_base = "http://localhost/crud/";   ?>
 
 <!doctype html>
 <html lang="es">
@@ -11,22 +11,33 @@
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        body {
+            background: #5f717b;
+            font-size: 18px !important;
 
+            input{
+              border-radius: 8px; 
+              outline: none;
+              border: none ;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-    <ul class="nav navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link active" href="#" aria-current="page">CRUD PHP <span class="visually-hidden">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="<?php echo $url_base;?>modulos/contacto/">Contactos</a>
-        </li>
-    </ul>
-</nav>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page">CRUD PHP <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo $url_base; ?>modulos/contacto/">Contactos</a>
+            </li>
+        </ul>
+    </nav>
 
     <main class="container">
 
-    <br><br>
+        <br><br>
